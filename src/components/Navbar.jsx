@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
-import { FiLogOut, FiShoppingBag } from "react-icons/fi";
+import { FiShoppingBag } from "react-icons/fi";
 import { BsFillPencilFill } from "react-icons/bs";
-import React, { useEffect, useState } from "react";
-import { login, logout, onUserStateChange } from "../api/firebase";
+import React from "react";
 import User from "./User";
 import Button from "./ui/Button";
 import { useAuthContext } from "./context/AuthContext";
